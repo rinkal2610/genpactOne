@@ -18,6 +18,7 @@ namespace ConAppMethod
         static void Main(string[] args)
         {
             Emp emp = new Emp();
+            Console.WriteLine(emp.FullName(lname:"Gour",fname:"Riya"));
             Console.WriteLine(emp.FullName("Rohan", "Thakur"));
             Console.ReadKey();
         }
